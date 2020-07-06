@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-heading{
+    padding: 30px;
+    text-align: center;
+}
+
+.main-heading, .article-heading{
+    font-family: 'Snell Roundhand', cursive;
+}
+
+.front-page{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.front-page article{
+    border: 1px solid black; 
+    flex: 25%;
+    height: 300px;
+}
+
+.front-page .article-heading{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.front-page .article-text{
+    padding: 10px;
+}
+
+.front-page .breaking-news-article{
+    flex: 50%;
+}
+
+.front-page .columns{
+    flex: 75%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.front-page .column{
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    font-weight: bold;
+    height: 60px;
+}
