@@ -22,7 +22,7 @@
 .front-page article{
     border: 1px solid black; 
     flex: 25%;
-    height: 300px;
+    height: auto;
 }
 
 .front-page .article-heading{
@@ -37,6 +37,16 @@
 
 .front-page .breaking-news-article{
     flex: 50%;
+    text-align: center;
+}
+
+.front-page .breaking-news-article .breaking-news-image{
+    padding: 20px;
+}
+
+.front-page .breaking-news-article .article-text{
+    text-align: left;
+    padding: 20px;
 }
 
 .front-page .columns{
@@ -49,6 +59,29 @@
 .front-page .column{
     text-align: left;
     padding: 20px 20px 20px 20px;
-    font-weight: bold;
+    font-weight: 900;
+    font-family: sans-serif;
     height: 60px;
+    color: #737373;
 }
+
+.front-page .columns .column-1{
+    background-color: lightpink;
+}
+
+.front-page .columns .column-2{
+    background-color: #75FF33;
+}
+
+.front-page .columns .column-3{
+    background-color: #FFBD33;
+}
+
+.front-page .columns .column-4{
+    background-color: #DBFF33;
+}
+
+.front-page .columns .column-5{
+    background-color: #33FFBD;
+}
+
